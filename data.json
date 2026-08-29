@@ -136,11 +136,11 @@
   "deger": 2200,
   "mesafe": 15.0,
   "yer": "Torslanda",
-  "guven": "7",
-  "satici": "",
-  "puan": 81.4,
-  "alt": 75.7,
-  "ust": 82.7,
+  "guven": "9",
+  "satici": "özel satıcı · doğrulanmış · 2015'ten üye · 107 yorum",
+  "puan": 82.3,
+  "alt": 76.5,
+  "ust": 83.5,
   "kapsama": 93,
   "vites_tip": "dis_aktarma",
   "vites_n": "21",
@@ -159,7 +159,7 @@
   "koltuk": "7",
   "ilan_yas": 0,
   "foto_incelendi": true,
-  "son_temas": "satıcı cevapladı: arka disk var, yıl ~2017/18, bagajlık yükü bilinmiyor",
+  "son_temas": "satıcı bugün her saat uygun dedi · saat için dönülecek",
   "ceza_km": 0.6,
   "ceza_kr": 0.0,
   "durum": "aday",
@@ -170,9 +170,7 @@
   "yorum": "",
   "not_tam": "",
   "tahminli": [],
-  "kunye_eksik": [
-   "satıcı"
-  ],
+  "kunye_eksik": [],
   "eksik": [
    "bakim"
   ],

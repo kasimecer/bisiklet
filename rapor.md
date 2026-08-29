@@ -86,7 +86,7 @@ Arşiv: elendi 14 · satıldı 6 · vazgeçildi 4
 
 | Alt sınır | Puan | Kesinlik | Bisiklet | Fiyat | Değer | Fark | Yer | Gün | Beden | Vites | Fren | Güven | Eksik puanlanan | Tahmin olan |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 75.7 | 81.4 | 76–83 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | disk ön+arka (satıcı teyit etti) | 7 | bakim | — |
+| 76.5 | 82.3 | 76–84 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | disk ön+arka (satıcı teyit etti) | 9 | bakim | — |
 | 74.6 | 74.6 | tahminli | [Giant X-Sport 4.0](https://www.blocket.se/25660200) | 2 400 | 2 400 | +0 | Goteborg (8 km) | 3 | ? | 24 | ? | 8 | — | beden, fren |
 | 72.0 | 72.0 | ölçüldü | [Monark Margareta Original](https://www.blocket.se/26007926) | 3 500 | 2 900 | -600 | Boras (65 km) | 1 | 51 | 7 | jant (el freni ön+arka) | 6 | — | — |
 | 67.7 | 67.7 | tahminli | [Yosemite Silver Apron 50cm](https://www.blocket.se/24905256) | 1 500 | — | — | Goteborg (8 km) | 40 | 50 | 24 | ? | 9 | — | fren |
@@ -126,7 +126,7 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ### Satıcı teması
 
-- **Merida Crossway damcykel 50cm** — satıcı cevapladı: arka disk var, yıl ~2017/18, bagajlık yükü bilinmiyor
+- **Merida Crossway damcykel 50cm** — satıcı bugün her saat uygun dedi · saat için dönülecek
 - **Monark Margareta Original** — satıcı başka ilgilenen olduğunu bildirdi
 - **Nishiki Trekking Master 46cm** — 2 soru soruldu — cevap yok
 
