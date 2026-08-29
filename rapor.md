@@ -87,8 +87,8 @@ kayıt sayısını bir yüksek-su işaretinde tutar; sayı düşerse **hata veri
 
 ## Profil A — E (160 cm, çocuk koltuğu)
 
-6 canlı aday · 49 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%74**
-Arşiv: ALINACAK 1 · elendi 14 · satıldı 6 · vazgeçildi 4
+7 canlı aday · 49 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%75**
+Arşiv: ALINDI 1 · elendi 14 · satıldı 6 · vazgeçildi 4
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
 
@@ -100,6 +100,7 @@ Arşiv: ALINACAK 1 · elendi 14 · satıldı 6 · vazgeçildi 4
 | 50.2 | 63.9 | 50–74 | [Crescent damcykel lattvikt](https://www.blocket.se/22875816) | 2 000 | — | — | Goteborg (8 km) | 6 | ? | 9 | fotbroms | ? | agirlik, guven | beden, fren |
 | 48.3 | 60.0 | 48–68 | [Apollo Limited (Sportson)](https://www.blocket.se/24910218) | 3 000 | — | — | bilinmiyor | 75 | ? | 18 | disk | ? | agirlik, guven | beden |
 | 48.3 | 59.2 | 48–68 | [Servad 7-navvaxlad lattmetall](https://www.blocket.se/25892547) | 3 000 | — | — | Goteborg-Spantorget (10 km) | 30 | ? | 7 | fotbroms | 4 | agirlik | beden, fren |
+| 40.5 | 54.9 | 40–64 | [Crescent Holma (Kallered)](https://www.blocket.se/25987112) | 4 500 | — | — | Kallered (15 km) | 2 | 55 | 24 | hidrolik disk | 7 | koltuk, agirlik, bakim | — |
 
 ### Veri yetersiz — sıralamaya girmez
 
@@ -114,7 +115,6 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 | 32.4 | 56.7 | 32–75 | [Crescent stadscykel 28 M svart](https://www.blocket.se/26028495) | 2 450 | — | — | Goteborg (5 km) | 1 | ? | 0 | fotbroms | ? | fren, koltuk, agirlik, guven, foto incelenmedi | beden, ekipman |
 | 19.5 | 51.5 | 20–76 | [White SC LITE hybrid S](https://www.blocket.se/24938380) | 3 900 | — | — | Asa (45 km) | 0 | ? | ? | ? | ? | vites, fren, agirlik, guven, foto incelenmedi | beden, ekipman, koltuk |
 | 15.4 | 55.4 | 15–76 | [Crescent hybrid lag insteg 51cm](https://www.blocket.se/25629680) | 3 900 | — | — | Huskvarna (150 km) | 0 | 51 | ? | ? | ? | vites, fren, koltuk, agirlik, bakim, guven, foto incelenmedi | ekipman |
-| 15.3 | 59.8 | 15–74 | [Crescent Holma (Kallered)](https://www.blocket.se/25987112) | 5 000 | — | — | Kallered (15 km) | 2 | ? | ? | hidrolik disk | 7 | beden, vites, koltuk, agirlik, bakim | — |
 | 11.1 | 49.8 | 11–80 | [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | 3 000 | — | — | Goteborg (8 km) | 47 | 53 | ? | ? | ? | vites, ekipman, fren, koltuk, agirlik, bakim, guven, foto incelenmedi | — |
 | 10.6 | 40.7 | 11–66 | [Nishiki 422 damcykel 53cm](https://www.blocket.se/25653038) | 4 800 | — | — | Torslanda (15 km) | 14 | 53 | ? | ? | ? | vites, fren, agirlik, bakim, guven, foto incelenmedi | ekipman, koltuk |
 
@@ -124,7 +124,6 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 
 | Kod | Tarih | Bisiklet | Son fiyat | Sebep |
 |---|---|---|---|---|
-| ALINACAK | 2026-08-29 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | — | E alma karari verdi - islem HENUZ TAMAMLANMADI |
 | ELENDI | 2026-08-26 | [KING damcykel 51cm](https://www.blocket.se/25960900) | — | 3 vites kurali |
 | ELENDI | 2026-08-29 | [Winther Black 5 52cm](https://www.blocket.se/26039594) | — | elle elendi |
 | ELENDI | 2026-08-29 | [Stabil Crescent Damcykel](https://www.blocket.se/25992013) | — | 3 vites kurali |
@@ -145,6 +144,7 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 | SATILDI | 2026-08-29 | [Crescent FEMTO (Varberg, beden bekleniyor)](https://www.blocket.se/26068818) | 2 000 | ilan satildi |
 | SATILDI | 2026-08-27 | [Skeppshult stadscykel (SATILDI)](https://www.blocket.se/26053266) | 1 800 | ilan satildi |
 | SATILDI | 2026-08-26 | [Skeppshult 7vxl (SATILDI)](https://www.blocket.se/25972979) | 1 500 | ilan satildi |
+| SATIN_ALINDI | 2026-08-29 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 500 | E satin aldi - Torslanda, ayni satici, ikisi birlikte |
 | VAZGECILDI | 2026-08-29 | [Crescent STREET STC600 51cm](https://www.blocket.se/23727828) | — | E vazgecti |
 | VAZGECILDI | 2026-08-29 | [Apollo PRO 28 tjej-unisex](https://www.blocket.se/25965230) | — | E vazgecti |
 | VAZGECILDI | 2026-08-29 | [Damcykel Yosemite](https://www.blocket.se/25992054) | — | E vazgecti |
@@ -167,11 +167,12 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 
 - **Monark Margareta Original** — satıcı başka ilgilenen olduğunu bildirdi
 - **Nishiki Trekking Master 46cm** — 2 soru soruldu — cevap yok
+- **Crescent Holma (Kallered)** — satıcı cevapladı: 55 cm · 24 vites · son fiyat 4500
 
 ## Profil B — eş (181 cm, spor + pendling)
 
 9 canlı aday · 59 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%74**
-Arşiv: ALINACAK 1 · elendi 7 · satıldı 1 · vazgeçildi 1
+Arşiv: ALINDI 1 · elendi 7 · satıldı 1 · vazgeçildi 1
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
 
@@ -181,7 +182,7 @@ Arşiv: ALINACAK 1 · elendi 7 · satıldı 1 · vazgeçildi 1
 | 68.9 | 73.7 | 69–75 | [Apollo Teamrace hybridcykel](https://www.blocket.se/25933358) | 4 000 | 3 000 | -1000 | bilinmiyor | 20 | L | 24 | hidrolik disk (YENİ) | 7 | agirlik | — |
 | 67.9 | 72.3 | 68–74 | [Crescent Hamra sport hybrid 58cm](https://www.blocket.se/25872191) | 2 700 | 2 600 | -100 | Ravlanda (40 km) | 5 | 58 | 24 | ? | 6 | agirlik | — |
 | 67.6 | 77.8 | 68–81 | [Ghost Cross 1800 pendlarcykel](https://www.blocket.se/26045334) | 2 450 | 3 000 | +550 | Lindome (15 km) | 0 | 53 | 27 | hidrolik disk (Tektro) | ? | guven, agirlik | — |
-| 63.7 | 75.7 | 64–82 | [Ridgeback Flight 56cm](https://www.blocket.se/25825943) | 3 000 | 2 700 | -300 | Falkoping (120 km) | 3 | 56 | ? | disk (ön+arka) | 5 | agirlik, bakim | vites |
+| 64.7 | 76.9 | 65–83 | [Ridgeback Flight 56cm](https://www.blocket.se/25825943) | 2 700 | 2 700 | +0 | Falkoping (120 km) | 3 | 56 | ? | disk (ön+arka) | 5 | agirlik, bakim | vites |
 | 61.6 | 69.5 | 62–72 | [Merida Crossway Striker L 55cm](https://www.blocket.se/26036967) | 5 000 | 3 400 | -1600 | Torslanda (15 km) | 2 | 55 | 24 | disk ön+arka (hidrolik DOĞRULANMADI) | 7 | agirlik, bakim | — |
 | 57.6 | 68.5 | 58–77 | [Crescent Tarfek 55cm](https://www.blocket.se/25588679) | 1 600 | — | — | Hisings Backa (10 km) | 1 | 55 | ? | ? | 4 | agirlik | fren, vites |
 | 56.9 | 69.2 | 57–76 | [Sjosala herrcykel 55cm 7vxl](https://www.blocket.se/25958388) | 2 000 | — | — | Ulricehamn (90 km) | 2 | 55 | 7 | ? | ? | guven, agirlik | fren |
@@ -227,7 +228,6 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 
 | Kod | Tarih | Bisiklet | Son fiyat | Sebep |
 |---|---|---|---|---|
-| ALINACAK | 2026-08-29 | [Merida Crossway herrcykel 55cm](https://www.blocket.se/26132911) | — | E alma karari verdi - islem HENUZ TAMAMLANMADI |
 | ELENDI | 2026-08-29 | [Sjosala Nordanvind 55](https://www.blocket.se/25831322) | — | 3 vites kurali |
 | ELENDI | 2026-08-29 | [Crescent Koster 56cm](https://www.blocket.se/25959587) | — | 3 vites kurali |
 | ELENDI | 2026-08-29 | [Scott Sportster S](https://www.blocket.se/25296469) | — | elle elendi |
@@ -236,6 +236,7 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 | ELENDI | 2026-08-29 | [Marvil 26 MTB (ELENDI)](https://www.blocket.se/26005737) | — | elle elendi |
 | ELENDI | 2026-08-29 | [Avenue L herr (MOTORLU)](https://www.blocket.se/25128834) | — | elle elendi |
 | SATILDI | 2026-08-26 | [Merida Crossway Striker (SATILDI)](https://www.blocket.se/25968004) | 2 500 | ilan satildi |
+| SATIN_ALINDI | 2026-08-29 | [Merida Crossway herrcykel 55cm](https://www.blocket.se/26132911) | 1 500 | E satin aldi - Torslanda, ayni satici, ikisi birlikte |
 | VAZGECILDI | 2026-08-26 | [Hybridcykel Peak 53cm](https://www.blocket.se/26036304) | — | E vazgecti |
 
 ### VETO — sert kısıt ihlali, puan verilmez
