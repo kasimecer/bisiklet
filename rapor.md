@@ -49,8 +49,8 @@ Arşiv: elendi 14 · satıldı 6 · vazgeçildi 4
 
 | Puan | Aralık | Bisiklet | Fiyat | Değer | Fark | Yer | Gün | Beden | Vites | Fren | Güven | Eksik |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 81.4 | 76–83 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | disk ön+arka (satıcı teyit etti) | 7 | satici, puan kapsamasi %93 |
 | 79.2 | 54–86 | [Vermont Chester Wave 50cm](https://www.blocket.se/26039627) | 2 000 | 2 200 | +200 | Goteborg (10 km) | 0 | 50 | 21 | jant (V) | 8 | yil, renk, puan kapsamasi %69 |
-| 78.8 | 73–80 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | ön disk (doğrulandı) · arka belirsiz | 6 | yil, satici, puan kapsamasi %93 |
 | 74.6 | kesin | [Giant X-Sport 4.0](https://www.blocket.se/25660200) | 2 400 | 2 400 | +0 | Goteborg (8 km) | 3 | ? | 24 | ? | 8 | beden, yil, fren, renk |
 | 72.0 | kesin | [Monark Margareta Original](https://www.blocket.se/26007926) | 3 500 | 2 900 | -600 | Boras (65 km) | 1 | 51 | 7 | jant (el freni ön+arka) | 6 | yil, renk, satici |
 | 69.0 | 61–71 | [Nishiki Trekking Master 46cm](https://www.blocket.se/24624215) | 3 500 | 2 400 | -1100 | Ojersjo (15 km) | 51 | 46 | 8 | ? | 7 | yil, fren, renk, satici, puan kapsamasi %90 |
@@ -77,8 +77,8 @@ Arşiv: elendi 14 · satıldı 6 · vazgeçildi 4
 
 ### Satıcı teması
 
+- **Merida Crossway damcykel 50cm** — satıcı cevapladı: arka disk var, yıl ~2017/18, bagajlık yükü bilinmiyor
 - **Vermont Chester Wave 50cm** — satıcı hızlı ve net cevapladı; açık soru yok
-- **Merida Crossway damcykel 50cm** — 3 soru gönderildi — cevap bekleniyor
 - **Monark Margareta Original** — satıcı başka ilgilenen olduğunu bildirdi
 - **Nishiki Trekking Master 46cm** — 2 soru soruldu — cevap yok
 
