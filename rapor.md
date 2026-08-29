@@ -132,7 +132,7 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ## Profil B — eş (181 cm, spor + pendling)
 
-15 canlı aday · 58 toplam kayıt · ortalama veri kapsaması **%97**
+16 canlı aday · 59 toplam kayıt · ortalama veri kapsaması **%97**
 Arşiv: elendi 7 · satıldı 1 · vazgeçildi 1
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
@@ -141,6 +141,7 @@ Arşiv: elendi 7 · satıldı 1 · vazgeçildi 1
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 81.2 | 81.2 | ölçüldü | [Trek Neko SL 57 cm](https://www.blocket.se/23479269) | 2 000 | 3 000 | +1000 | Bramhult (60 km) | 11 | 57 | 27 | disk (ön+arka) | 8 | — | — |
 | 78.7 | 78.7 | ölçüldü | [Ortler Chur trekking 55cm (Deore 3x9)](https://www.blocket.se/25787860) | 4 500 | 3 100 | -1400 | Goteborg (10 km) | 12 | 55 | 27 | hidrolik disk (Shimano, 160mm) | 8 | — | — |
+| 76.8 | 80.0 | 77–81 | [Merida Crossway herrcykel 55cm](https://www.blocket.se/26132911) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 55 | 21 | disk ön+arka (fotoğraftan) | 9 | bakim | — |
 | 74.7 | 74.7 | ölçüldü | [Apollo Teamrace hybridcykel](https://www.blocket.se/25933358) | 4 000 | 3 000 | -1000 | bilinmiyor | 20 | L | 24 | hidrolik disk (YENİ) | 7 | — | — |
 | 71.9 | 75.0 | 72–76 | [Ridgeback Flight 56cm](https://www.blocket.se/25825943) | 3 000 | 2 700 | -300 | Falkoping (120 km) | 3 | 56 | ? | disk (ön+arka) | 5 | bakim | vites |
 | 71.7 | 71.7 | ölçüldü | [Crescent Hamra sport hybrid 58cm](https://www.blocket.se/25872191) | 2 700 | 2 600 | -100 | Ravlanda (40 km) | 5 | 58 | 24 | ? | 6 | — | — |
@@ -203,6 +204,7 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ### Satıcı teması
 
+- **Merida Crossway herrcykel 55cm** — aynı satıcıyla temas var (kardeş ilan)
 - **Merida Crossway Striker L 55cm** — temas kurulmadı — model yılı sorulmalı
 
 ## Denetçiye açık sorular
