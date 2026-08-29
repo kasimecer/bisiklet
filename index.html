@@ -289,7 +289,8 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
     { k: "yer", t: "Yer · gün", v: function (d) { return (d.yer || "zzz").toLowerCase(); }, td: function (d) {
         var g = d.ilan_yas;
         var sn = g == null ? "p-mute" : g > 45 ? "p-bad" : g > 21 ? "p-warn" : "p-mute";
-        return '<span style="font-size:12px">' + esc(bosluk(d.yer)) + "</span>" +
+        var ykm = d.mesafe == null ? "" : ' <span style="color:var(--muted)">(' + km(d.mesafe) + ")</span>";
+        return '<span style="font-size:12px">' + esc(bosluk(d.yer)) + ykm + "</span>" +
           (g == null ? '<div class="ad-meta">gün ?</div>'
                      : '<div class="ad-meta"><span class="pill ' + sn + '">' + g + " gün</span></div>"); } },
     { k: "size", t: "Beden", v: function (d) { return d.size || "zz"; },
@@ -366,7 +367,8 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
           '<div><span class="lbl">fark</span><div class="v">' + farkHtml(d) + "</div></div>" +
           '<div><span class="lbl">mesafe</span><div class="v">' + km(d.mesafe) + "</div></div>" +
           '<div><span class="lbl">yer · gün</span><div class="v" style="font-size:11.5px">' +
-            esc(bosluk(d.yer)) + (d.ilan_yas == null ? "" : " · " + d.ilan_yas + "g") + "</div></div>" +
+            esc(bosluk(d.yer)) + (d.mesafe == null ? "" : " (" + km(d.mesafe) + ")") +
+            (d.ilan_yas == null ? "" : " · " + d.ilan_yas + "g") + "</div></div>" +
           '<div><span class="lbl">vites</span><div class="v">' + esc(d.vites_n || "—") + "</div></div>" +
           '<div><span class="lbl">fren</span><div class="v" style="font-size:11.5px">' + esc(bosluk(d.fren)) + "</div></div>" +
         "</div>" +
