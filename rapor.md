@@ -73,13 +73,21 @@ ve rapora yazılmadan önce netleştirilecektir.
 **`foto` kalemi belge kalitesidir**, bisikletin fiziksel durumu değil (o `durum`).
 Ağırlığının skorda kalması denetimde sorgulandı; karar bekliyor.
 
+**Arşiv kalıcıdır** (E kararı, 2026-08-29). Elenen · vetolanan · satılan · vazgeçilen
+hiçbir kayıt silinmez. Her arşiv kaydı taşır: `arsiv_kod` (VETO / ELENDI / SATILDI /
+VAZGECILDI) · `arsiv_sebep` · `arsiv_tarih` · satıldıysa **`son_fiyat` (zorunlu)**.
+Satılan ilanların fiyatı `Değer` modelinin piyasa referansı olacak. `validate.py`
+kayıt sayısını bir yüksek-su işaretinde tutar; sayı düşerse **hata verir**.
+
+**Veri kapsaması TÜM kayıtlar üzerinden** hesaplanır, ana kuyruk üzerinden değil.
+
 **`Gün` skorda ödül vermez** — yalnız tek yönlü bayatlık cezası: >14g −2, >30g −4,
 >45g −6.
 
 
 ## Profil A — E (160 cm, çocuk koltuğu)
 
-6 canlı aday · 49 toplam kayıt · ortalama veri kapsaması **%96**
+6 canlı aday · 49 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%77**
 Arşiv: elendi 14 · satıldı 6 · vazgeçildi 4
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
@@ -107,6 +115,37 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 | 18.3 | 50.9 | 18–67 | [Crescent Holma (Kallered)](https://www.blocket.se/25987112) | 5 000 | — | — | Kallered (15 km) | 2 | ? | ? | hidrolik disk | 7 | beden, vites, koltuk, bakim | — |
 | 14.2 | 55.2 | 14–76 | [Crescent hybrid lag insteg 51cm](https://www.blocket.se/25629680) | 3 900 | — | — | Huskvarna (150 km) | 0 | 51 | ? | ? | ? | vites, foto, fren, koltuk, bakim, guven, foto incelenmedi | ekipman |
 
+### Arşiv — KALICI, silinmez
+
+Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir temizlik, dedup veya bakım işleminde de. Satılan ilanların **son fiyatı `Değer` modelinin piyasa referansıdır**, bu yüzden fiyat alanı zorunludur.
+
+| Kod | Tarih | Bisiklet | Son fiyat | Sebep |
+|---|---|---|---|---|
+| ELENDI | 2026-08-26 | [KING damcykel 51cm](https://www.blocket.se/25960900) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Stabil Crescent Damcykel](https://www.blocket.se/25992013) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Winther Black 5 52cm](https://www.blocket.se/26039594) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Crescent stadscykel 48cm 21vxl](https://www.blocket.se/26045095) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Monark Karin Original 28 51cm](https://www.blocket.se/25689962) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Crescent City Sirius 2013](https://www.blocket.se/25504084) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Diplomat nostalgia damcykel](https://www.blocket.se/26027737) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Sjosala Lysekil 28](https://www.blocket.se/25230804) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Sjosala Mariedal 28 (ELENDI)](https://www.blocket.se/25905620) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Skanstull Melissa damcykel](https://www.blocket.se/25406390) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Occano J5 24 (ELENDI)](https://www.blocket.se/26011657) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Crescent tjejcykel 24 inc (ELENDI)](https://www.blocket.se/26053297) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Cykel Savedalen (ELENDI)](https://www.blocket.se/23330598) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Neobike 16 katlanabilir (ELENDI)](https://www.blocket.se/24088407) | — | elle elendi |
+| SATILDI | 2026-08-26 | [Crescent 51cm vit dam (SATILDI)](https://www.blocket.se/25212439) | 3 000 | ilan satildi |
+| SATILDI | 2026-08-25 | [Crescent dam stadscykel](https://www.blocket.se/25968826) | 2 700 | ilan satildi |
+| SATILDI | 2026-08-26 | [Sjosala Carmencita](https://www.blocket.se/24556817) | 2 200 | ilan satildi |
+| SATILDI | 2026-08-29 | [Crescent FEMTO (Varberg, beden bekleniyor)](https://www.blocket.se/26068818) | 2 000 | ilan satildi |
+| SATILDI | 2026-08-27 | [Skeppshult stadscykel (SATILDI)](https://www.blocket.se/26053266) | 1 800 | ilan satildi |
+| SATILDI | 2026-08-26 | [Skeppshult 7vxl (SATILDI)](https://www.blocket.se/25972979) | 1 500 | ilan satildi |
+| VAZGECILDI | 2026-08-29 | [Crescent STREET STC600 51cm](https://www.blocket.se/23727828) | — | E vazgecti |
+| VAZGECILDI | 2026-08-29 | [Apollo PRO 28 tjej-unisex](https://www.blocket.se/25965230) | — | E vazgecti |
+| VAZGECILDI | 2026-08-29 | [Damcykel Yosemite](https://www.blocket.se/25992054) | — | E vazgecti |
+| VAZGECILDI | 2026-08-29 | [Skeppshult stadscykel 26](https://www.blocket.se/25868007) | — | E vazgecti |
+
 ### VETO — sert kısıt ihlali, puan verilmez
 
 | Bisiklet | Fiyat | Yer | VETO SEBEBİ |
@@ -132,7 +171,7 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ## Profil B — eş (181 cm, spor + pendling)
 
-12 canlı aday · 59 toplam kayıt · ortalama veri kapsaması **%97**
+12 canlı aday · 59 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%72**
 Arşiv: elendi 7 · satıldı 1 · vazgeçildi 1
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
@@ -181,6 +220,22 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 | 14.7 | 59.3 | 15–86 | [Merida Crossway Woodland M](https://www.blocket.se/26020702) | 2 200 | — | — | Habo (130 km) | 1 | ? | ? | ? | ? | vites, foto, fren, ekipman, guven, bakim, foto incelenmedi | beden |
 | 13.6 | 51.1 | 14–77 | [Crescent herrcykel 59cm](https://www.blocket.se/23605437) | 3 500 | — | — | Vanersborg (85 km) | 30 | 59 | ? | ? | ? | vites, foto, fren, ekipman, guven, bakim, foto incelenmedi | — |
 | 11.3 | 47.1 | 11–82 | [Bianchi hybrid M](https://www.blocket.se/25787720) | 3 500 | — | — | V.Frolunda (10 km) | 9 | ? | ? | ? | ? | vites, foto, fren, ekipman, guven, bakim, foto incelenmedi | beden |
+
+### Arşiv — KALICI, silinmez
+
+Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir temizlik, dedup veya bakım işleminde de. Satılan ilanların **son fiyatı `Değer` modelinin piyasa referansıdır**, bu yüzden fiyat alanı zorunludur.
+
+| Kod | Tarih | Bisiklet | Son fiyat | Sebep |
+|---|---|---|---|---|
+| ELENDI | 2026-08-29 | [Sjosala Nordanvind 55](https://www.blocket.se/25831322) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Crescent Koster 56cm](https://www.blocket.se/25959587) | — | 3 vites kurali |
+| ELENDI | 2026-08-29 | [Scott Sportster S](https://www.blocket.se/25296469) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Ronhill RHW5 (Stadium) S](https://www.blocket.se/25365906) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Bianchi Celvino 58cm](https://www.blocket.se/24540402) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Marvil 26 MTB (ELENDI)](https://www.blocket.se/26005737) | — | elle elendi |
+| ELENDI | 2026-08-29 | [Avenue L herr (MOTORLU)](https://www.blocket.se/25128834) | — | elle elendi |
+| SATILDI | 2026-08-26 | [Merida Crossway Striker (SATILDI)](https://www.blocket.se/25968004) | 2 500 | ilan satildi |
+| VAZGECILDI | 2026-08-26 | [Hybridcykel Peak 53cm](https://www.blocket.se/26036304) | — | E vazgecti |
 
 ### VETO — sert kısıt ihlali, puan verilmez
 
