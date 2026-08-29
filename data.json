@@ -3494,7 +3494,7 @@
   "durum": "aday",
   "kesinlik": "aralik",
   "tahmin": [],
-  "veto": "KARA LISTE: Scott — asiri entegrasyon, bakim maliyeti",
+  "veto": "KARA LISTE: Scott",
   "durum_sebep": "",
   "yorum": "",
   "not_tam": "",
@@ -4820,7 +4820,7 @@
    "ekipman",
    "koltuk"
   ],
-  "veto": "KARA LISTE: Skeppshult — E karari (22 kg + dar vites araligi) · BUTCE 7800 kr > 5000",
+  "veto": "BUTCE 7800 kr > 5000",
   "durum_sebep": "",
   "yorum": "",
   "not_tam": "",
@@ -4893,7 +4893,7 @@
    "beden",
    "ekipman"
   ],
-  "veto": "KARA LISTE: Biltema — guvenlik · MESAFE 470 km > 200 (ayni gun gidilemez)",
+  "veto": "MESAFE 470 km > 200 (ayni gun gidilemez)",
   "durum_sebep": "",
   "yorum": "",
   "not_tam": "",

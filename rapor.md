@@ -118,8 +118,8 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 | [Rabeneick TS4 XS (146-165cm)](https://www.blocket.se/23076367) | 3 900 | Spanga | MESAFE 470 km > 200 (ayni gun gidilemez) |
 | [White SC LITE hybrid S](https://www.blocket.se/24938380) | 3 900 | Asa | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
 | [Crescent hybrid (Kungsangen)](https://www.blocket.se/22534571) | 3 500 | Kungsangen | MESAFE 450 km > 200 (ayni gun gidilemez) |
-| [Batavus Harlem E-Go (BATARYASIZ)](https://www.blocket.se/26089695) | 7 800 | Askim | KARA LISTE: Skeppshult — E karari (22 kg + dar vites araligi) · BUTCE 7800 kr > 5000 |
-| [White AX Series 28 8vxl (VALLENTUNA - cok uzak)](https://www.blocket.se/25833901) | 3 000 | Vallentuna | KARA LISTE: Biltema — guvenlik · MESAFE 470 km > 200 (ayni gun gidilemez) |
+| [Batavus Harlem E-Go (BATARYASIZ)](https://www.blocket.se/26089695) | 7 800 | Askim | BUTCE 7800 kr > 5000 |
+| [White AX Series 28 8vxl (VALLENTUNA - cok uzak)](https://www.blocket.se/25833901) | 3 000 | Vallentuna | MESAFE 470 km > 200 (ayni gun gidilemez) |
 | [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | 3 000 | Goteborg | BEDEN 53 cm bant disi (44-52) |
 | [Nishiki 422 damcykel 53cm](https://www.blocket.se/25653038) | 4 800 | Torslanda | BEDEN 53 cm bant disi (44-52) |
 | [Crescent hybrid M (Dalaro)](https://www.blocket.se/25541463) | 4 000 | Dalaro | MESAFE 490 km > 200 (ayni gun gidilemez) · ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
@@ -187,7 +187,7 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 | Bisiklet | Fiyat | Yer | VETO SEBEBİ |
 |---|---|---|---|
 | [Ghost Cross 1800 pendlarcykel](https://www.blocket.se/26045334) | 2 450 | Lindome | BEDEN 53 cm bant disi (54-60) |
-| [Scott Sportster 40 herr M](https://www.blocket.se/26035210) | 2 500 | Vaggeryd | KARA LISTE: Scott — asiri entegrasyon, bakim maliyeti |
+| [Scott Sportster 40 herr M](https://www.blocket.se/26035210) | 2 500 | Vaggeryd | KARA LISTE: Scott |
 | [Hybrid cykel 28 (Yosemite/Biltema)](https://www.blocket.se/25671871) | 1 990 | bilinmiyor | KARA LISTE: Yosemite/Biltema — guvenlik (Rad & Ron testi) · BEDEN 53 cm bant disi (54-60) |
 | [Crescent Holma damhybrid 55cm (STOCKHOLM)](https://www.blocket.se/26044987) | 4 500 | Stockholm | MESAFE 470 km > 200 (ayni gun gidilemez) |
 | [Scott Sub Comfort 10 L 27vxl](https://www.blocket.se/25285342) | 5 000 | Skovde | KARA LISTE: Scott — asiri entegrasyon, bakim maliyeti |
