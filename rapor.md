@@ -86,7 +86,7 @@ Arşiv: elendi 14 · satıldı 6 · vazgeçildi 4
 
 | Alt sınır | Puan | Kesinlik | Bisiklet | Fiyat | Değer | Fark | Yer | Gün | Beden | Vites | Fren | Güven | Eksik puanlanan | Tahmin olan |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 76.5 | 82.3 | 76–84 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | disk ön+arka (satıcı teyit etti) | 9 | bakim | — |
+| 76.1 | 81.9 | 76–83 | [Merida Crossway damcykel 50cm](https://www.blocket.se/26132688) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 50 | 21 | disk ön+arka (satıcı teyit etti) | 8 | bakim | — |
 | 74.6 | 74.6 | tahminli | [Giant X-Sport 4.0](https://www.blocket.se/25660200) | 2 400 | 2 400 | +0 | Goteborg (8 km) | 3 | ? | 24 | ? | 8 | — | beden, fren |
 | 72.0 | 72.0 | ölçüldü | [Monark Margareta Original](https://www.blocket.se/26007926) | 3 500 | 2 900 | -600 | Boras (65 km) | 1 | 51 | 7 | jant (el freni ön+arka) | 6 | — | — |
 | 67.7 | 67.7 | tahminli | [Yosemite Silver Apron 50cm](https://www.blocket.se/24905256) | 1 500 | — | — | Goteborg (8 km) | 40 | 50 | 24 | ? | 9 | — | fren |
@@ -141,7 +141,7 @@ Arşiv: elendi 7 · satıldı 1 · vazgeçildi 1
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 81.2 | 81.2 | ölçüldü | [Trek Neko SL 57 cm](https://www.blocket.se/23479269) | 2 000 | 3 000 | +1000 | Bramhult (60 km) | 11 | 57 | 27 | disk (ön+arka) | 8 | — | — |
 | 78.7 | 78.7 | ölçüldü | [Ortler Chur trekking 55cm (Deore 3x9)](https://www.blocket.se/25787860) | 4 500 | 3 100 | -1400 | Goteborg (10 km) | 12 | 55 | 27 | hidrolik disk (Shimano, 160mm) | 8 | — | — |
-| 76.8 | 80.0 | 77–81 | [Merida Crossway herrcykel 55cm](https://www.blocket.se/26132911) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 55 | 21 | disk ön+arka (fotoğraftan) | 9 | bakim | — |
+| 76.1 | 79.3 | 76–80 | [Merida Crossway herrcykel 55cm](https://www.blocket.se/26132911) | 1 650 | 2 200 | +550 | Torslanda (15 km) | 0 | 55 | 21 | disk ön+arka (fotoğraftan) | 8 | bakim | — |
 | 74.7 | 74.7 | ölçüldü | [Apollo Teamrace hybridcykel](https://www.blocket.se/25933358) | 4 000 | 3 000 | -1000 | bilinmiyor | 20 | L | 24 | hidrolik disk (YENİ) | 7 | — | — |
 | 71.9 | 75.0 | 72–76 | [Ridgeback Flight 56cm](https://www.blocket.se/25825943) | 3 000 | 2 700 | -300 | Falkoping (120 km) | 3 | 56 | ? | disk (ön+arka) | 5 | bakim | vites |
 | 71.7 | 71.7 | ölçüldü | [Crescent Hamra sport hybrid 58cm](https://www.blocket.se/25872191) | 2 700 | 2 600 | -100 | Ravlanda (40 km) | 5 | 58 | 24 | ? | 6 | — | — |
