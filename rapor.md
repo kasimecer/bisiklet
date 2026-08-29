@@ -171,7 +171,7 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 
 ## Profil B — eş (181 cm, spor + pendling)
 
-9 canlı aday · 59 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%74**
+10 canlı aday · 60 toplam kayıt · veri kapsaması (TÜM kayıtlar) **%74**
 Arşiv: ALINDI 1 · elendi 7 · satıldı 1 · vazgeçildi 1
 
 ### Ana kuyruk — vetoyu geçmiş, verisi yeterli (aralık ALT SINIRINA göre sıralı)
@@ -183,6 +183,7 @@ Arşiv: ALINDI 1 · elendi 7 · satıldı 1 · vazgeçildi 1
 | 67.9 | 72.3 | 68–74 | [Crescent Hamra sport hybrid 58cm](https://www.blocket.se/25872191) | 2 700 | 2 600 | -100 | Ravlanda (40 km) | 5 | 58 | 24 | ? | 6 | agirlik | — |
 | 67.6 | 77.8 | 68–81 | [Ghost Cross 1800 pendlarcykel](https://www.blocket.se/26045334) | 2 450 | 3 000 | +550 | Lindome (15 km) | 0 | 53 | 27 | hidrolik disk (Tektro) | ? | guven, agirlik | — |
 | 64.7 | 76.9 | 65–83 | [Ridgeback Flight 56cm](https://www.blocket.se/25825943) | 2 700 | 2 700 | +0 | Falkoping (120 km) | 3 | 56 | ? | disk (ön+arka) | 5 | agirlik, bakim | vites |
+| 63.6 | 71.5 | 64–74 | [Crescent Holma (Kallered)](https://www.blocket.se/25987112) | 4 500 | 2 800 | -1700 | Kallered (15 km) | 2 | 55 | 24 | disk ön+arka (fotoğraftan) | 7 | agirlik, bakim | — |
 | 61.6 | 69.5 | 62–72 | [Merida Crossway Striker L 55cm](https://www.blocket.se/26036967) | 5 000 | 3 400 | -1600 | Torslanda (15 km) | 2 | 55 | 24 | disk ön+arka (hidrolik DOĞRULANMADI) | 7 | agirlik, bakim | — |
 | 57.6 | 68.5 | 58–77 | [Crescent Tarfek 55cm](https://www.blocket.se/25588679) | 1 600 | — | — | Hisings Backa (10 km) | 1 | 55 | ? | ? | 4 | agirlik | fren, vites |
 | 56.9 | 69.2 | 57–76 | [Sjosala herrcykel 55cm 7vxl](https://www.blocket.se/25958388) | 2 000 | — | — | Ulricehamn (90 km) | 2 | 55 | 7 | ? | ? | guven, agirlik | fren |
@@ -259,6 +260,7 @@ Elenen · vetolanan · satılan · vazgeçilen hiçbir kayıt silinmez; hiçbir 
 
 ### Satıcı teması
 
+- **Crescent Holma (Kallered)** — satıcı cevapladı: 55 cm · 24 vites · son fiyat 4500
 - **Merida Crossway Striker L 55cm** — temas kurulmadı — model yılı sorulmalı
 
 ## Denetçiye açık sorular
