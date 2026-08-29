@@ -428,7 +428,11 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
       bolum("Kısa liste — en idealler", kisa) +
       bolum(S.durum === "aday" ? "Diğer adaylar" : "Geçmiş ve arşiv", kalan, " arch") +
       "<footer>Kaynak: <code>bikes.csv</code> + <code>extra.json</code> · puan modeli <code>score.py</code> v4.3 · " +
-      "yorum sütunu senindir · satır tıkla → tüm alanlar<br><b>Yer · gün</b>: " + esc(YAS_NOT) + "</footer>" +
+      "yorum sütunu senindir · satır tıkla → tüm alanlar<br>" +
+      'Makine okunur sürümler: <a href="rapor.md">rapor.md</a> · ' +
+      '<a href="data.json">data.json</a> — bu sayfanın gövdesini JavaScript çizer, ' +
+      'JS çalıştırmayan okuyucular (denetçi, fetch) o iki dosyayı kullansın.<br>' +
+      "<b>Yer · gün</b>: " + esc(YAS_NOT) + "</footer>" +
       '<div class="drawer" id="drawer"><div class="scrim" data-close></div><div class="panel" id="panel"></div></div>';
 
     bagla();
