@@ -220,6 +220,7 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
   var NS = null, kirli = false, zaman = null;
   // GitHub Pages'te claude runtime YOK. O zaman yorumlar bu cihazin localStorage'ina
   // yazilir; "Yorumlari disari aktar" ile JSON alinip yorum.json'a islenir.
+  var YAS_NOT = "Blocket ilanin ILK YAYIN tarihini vermiyor; yalniz 'Senast andrad' (son duzenleme) var. Bu sayi son duzenlemeden bu yana gecen gundur - satici ilani guncellerse SIFIRLANIR. Tek yonlu sinyal: buyuk sayi kesin bayat demektir, kucuk sayi taze olmayabilir.";
   var LS = "bisiklet-yorum-v1";
   var yerel = (function () {
     try { return window.localStorage ? JSON.parse(localStorage.getItem(LS) || "{}") : null; }
@@ -336,8 +337,9 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
     var th = COLS.map(function (c) {
       var ok = c.sort !== false;
       var ar = S.sort === c.k ? '<span class="ar">' + (S.dir < 0 ? "▼" : "▲") + "</span>" : "";
+      var ipucu = c.k === "yer" ? ' title="' + esc(YAS_NOT) + '"' : "";
       return '<th class="' + (ok ? "s" : "") + '"' + (ok ? ' data-sort="' + c.k + '" tabindex="0" role="button"' : "") +
-        ">" + esc(c.t) + ar + "</th>";
+        ipucu + ">" + esc(c.t) + ar + "</th>";
     }).join("");
     var tr = rows.map(function (d) {
       return '<tr class="' + (d.durum === "aday" ? "" : "sold") + '" data-key="' + esc(d.anahtar) + '">' +
@@ -424,7 +426,7 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
       bolum("Kısa liste — en idealler", kisa) +
       bolum(S.durum === "aday" ? "Diğer adaylar" : "Geçmiş ve arşiv", kalan, " arch") +
       "<footer>Kaynak: <code>bikes.csv</code> + <code>extra.json</code> · puan modeli <code>score.py</code> v4.3 · " +
-      "yorum sütunu senindir, güncellemelerde korunur · satır tıkla → tüm alanlar</footer>" +
+      "yorum sütunu senindir · satır tıkla → tüm alanlar<br><b>Yer · gün</b>: " + esc(YAS_NOT) + "</footer>" +
       '<div class="drawer" id="drawer"><div class="scrim" data-close></div><div class="panel" id="panel"></div></div>';
 
     bagla();
@@ -473,7 +475,7 @@ footer code{font-family:"IBM Plex Mono",monospace;background:var(--surface2);pad
         ["Sehpa", nokta(d.sehpa), true], ["Kilit", nokta(d.kilit), true],
         ["Zincir muhafazası", nokta(d.zincir_muhafaza), true],
         ["Çocuk koltuğu onayı", d.cocuk_onay]])) +
-      grp("süreç", kv([["İlan yaşı", d.ilan_yas == null ? "" : d.ilan_yas + " gün"],
+      grp("süreç", kv([["Son düzenlemeden beri", d.ilan_yas == null ? "" : d.ilan_yas + " gun (ilk yayin tarihi Blockette YOK)"],
         ["Fotoğraf", d.foto_incelendi ? "incelendi" : "AÇILMADI"],
         ["Son temas", d.son_temas],
         ["Ceza · mesafe", "−" + d.ceza_km.toFixed(1)],
