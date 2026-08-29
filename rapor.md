@@ -114,15 +114,15 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ### VETO — sert kısıt ihlali, puan verilmez
 
-| Alt sınır | Puan | Kesinlik | Bisiklet | Veto sebebi |
-|---|---|---|---|---|
-| 59.7 | 0.0 | 60–64 | [Crescent damcykel lattvikt](https://www.blocket.se/22875816) | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
-| 36.8 | 0.0 | 37–41 | [Crescent Holma damhybrid 55cm (STOCKHOLM)](https://www.blocket.se/26044987) | BEDEN 55 cm bant disi (44-52) |
-| 26.5 | 0.0 | 26–68 | [White SC LITE hybrid S](https://www.blocket.se/24938380) | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
-| 19.5 | 0.0 | 20–36 | [Batavus Harlem E-Go (BATARYASIZ)](https://www.blocket.se/26089695) | BUTCE 7800 kr > 5000 |
-| 15.2 | 0.0 | 15–54 | [Crescent hybrid M (Dalaro)](https://www.blocket.se/25541463) | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
-| 13.8 | 0.0 | 14–63 | [Nishiki 422 damcykel 53cm](https://www.blocket.se/25653038) | BEDEN 53 cm bant disi (44-52) |
-| 10.5 | 0.0 | 10–80 | [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | BEDEN 53 cm bant disi (44-52) |
+| Bisiklet | Fiyat | Yer | VETO SEBEBİ |
+|---|---|---|---|
+| [Crescent damcykel lattvikt](https://www.blocket.se/22875816) | 2 000 | Goteborg | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
+| [Crescent Holma damhybrid 55cm (STOCKHOLM)](https://www.blocket.se/26044987) | 4 500 | Stockholm | BEDEN 55 cm bant disi (44-52) |
+| [White SC LITE hybrid S](https://www.blocket.se/24938380) | 3 900 | Asa | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
+| [Batavus Harlem E-Go (BATARYASIZ)](https://www.blocket.se/26089695) | 7 800 | Askim | BUTCE 7800 kr > 5000 |
+| [Crescent hybrid M (Dalaro)](https://www.blocket.se/25541463) | 4 000 | Dalaro | ARKA BAGAJ YOK (cocuk koltugu takilamaz) |
+| [Nishiki 422 damcykel 53cm](https://www.blocket.se/25653038) | 4 800 | Torslanda | BEDEN 53 cm bant disi (44-52) |
+| [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | 3 000 | Goteborg | BEDEN 53 cm bant disi (44-52) |
 
 ### Satıcı teması
 
@@ -193,13 +193,13 @@ Fotoğrafı incelenmemiş **veya** belirsizlik aralığı 25 puandan geniş. Tek
 
 ### VETO — sert kısıt ihlali, puan verilmez
 
-| Alt sınır | Puan | Kesinlik | Bisiklet | Veto sebebi |
-|---|---|---|---|---|
-| 77.8 | 0.0 | ölçüldü | [Ghost Cross 1800 pendlarcykel](https://www.blocket.se/26045334) | BEDEN 53 cm bant disi (54-60) |
-| 56.0 | 0.0 | 56–63 | [Hybrid cykel 28 (Yosemite/Biltema)](https://www.blocket.se/25671871) | BEDEN 53 cm bant disi (54-60) |
-| 39.8 | 0.0 | 40–61 | [Skeppshult Herr ARC 7-vxl 53cm](https://www.blocket.se/25083327) | BEDEN 53 cm bant disi (54-60) |
-| 29.5 | 0.0 | 30–62 | [Crescent Angso](https://www.blocket.se/24997765) | BEDEN 61 cm bant disi (54-60) |
-| 14.0 | 0.0 | 14–77 | [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | BEDEN 53 cm bant disi (54-60) |
+| Bisiklet | Fiyat | Yer | VETO SEBEBİ |
+|---|---|---|---|
+| [Ghost Cross 1800 pendlarcykel](https://www.blocket.se/26045334) | 2 450 | Lindome | BEDEN 53 cm bant disi (54-60) |
+| [Hybrid cykel 28 (Yosemite/Biltema)](https://www.blocket.se/25671871) | 1 990 | bilinmiyor | BEDEN 53 cm bant disi (54-60) |
+| [Skeppshult Herr ARC 7-vxl 53cm](https://www.blocket.se/25083327) | 1 200 | Ulricehamn | BEDEN 53 cm bant disi (54-60) |
+| [Crescent Angso](https://www.blocket.se/24997765) | 3 000 | Goteborg | BEDEN 61 cm bant disi (54-60) |
+| [Hybridcykel 53cm unisex (Gbg)](https://www.blocket.se/23090187) | 3 000 | Goteborg | BEDEN 53 cm bant disi (54-60) |
 
 ### Satıcı teması
 
