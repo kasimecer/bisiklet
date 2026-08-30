@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Cocuk koltugu karar tahtasi">
+<title>Koltuk Karar Tahtasi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+</head>
+<body>
+<style>
+:root{
+  --bg:#F4F6F7; --surface:#FFFFFF; --surface2:#EAEEF1;
+  --ink:#111820; --ink2:#37424E; --muted:#5F6C7A; --line:#D8DEE4; --line2:#C3CCD5;
+  --accent:#D2670A; --accent-soft:#FBEEE1; --on-accent:#FFFFFF;
+  --good:#15694A; --good-soft:#E2F0EA;
+  --warn:#8C6108; --warn-soft:#F7EEDA;
+  --bad:#A0362A;  --bad-soft:#F7E5E2;
+  --shadow:0 1px 2px rgba(16,24,32,.06),0 6px 20px rgba(16,24,32,.06);
+  --r:9px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#0D1115; --surface:#151A20; --surface2:#1B222A;
+    --ink:#E5EAEF; --ink2:#C2CBD4; --muted:#8896A4; --line:#242D36; --line2:#313C47;
+    --accent:#F08A2E; --accent-soft:#2A1E12; --on-accent:#14100A;
+    --good:#4FBF92; --good-soft:#12251E;
+    --warn:#D9A63A; --warn-soft:#251E10;
+    --bad:#E4776A;  --bad-soft:#261614;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 15px/1.55 "IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  -webkit-text-size-adjust:100%;
+}
+.wrap{max-width:1080px; margin:0 auto; padding:22px 16px 64px}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif; letter-spacing:-.01em; margin:0}
+h1{font-size:clamp(22px,4vw,30px); font-weight:700}
+h2{font-size:17px; font-weight:600; margin:30px 0 10px}
+.sub{color:var(--muted); font-size:13.5px; margin-top:5px}
+.nav{display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap}
+.nav a{
+  font-family:Archivo,sans-serif; font-size:12.5px; font-weight:600;
+  text-decoration:none; padding:6px 12px; border-radius:99px;
+  border:1px solid var(--line2); color:var(--ink2); background:var(--surface);
+}
+.nav a[aria-current]{background:var(--accent); color:var(--on-accent); border-color:var(--accent)}
+.rule{
+  background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--accent);
+  border-radius:var(--r); padding:14px 16px; margin:16px 0 6px; box-shadow:var(--shadow);
+}
+.rule b{font-family:Archivo,sans-serif}
+.kg{font-family:"IBM Plex Mono",monospace; font-weight:500}
+.scroll{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:10px 0}
+table{border-collapse:collapse; width:100%; min-width:760px; background:var(--surface);
+  border:1px solid var(--line); border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow)}
+th,td{padding:9px 11px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top}
+th{font-family:Archivo,sans-serif; font-size:11.5px; font-weight:600; text-transform:uppercase;
+  letter-spacing:.05em; color:var(--muted); background:var(--surface2); white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.num{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums; white-space:nowrap}
+a.lst{color:var(--accent); text-decoration:none; font-weight:500}
+a.lst:hover{text-decoration:underline}
+.tag{display:inline-block; font-family:Archivo,sans-serif; font-size:10.5px; font-weight:600;
+  padding:2px 7px; border-radius:99px; white-space:nowrap}
+.t-ok{background:var(--good-soft); color:var(--good)}
+.t-hm{background:var(--warn-soft); color:var(--warn)}
+.t-no{background:var(--bad-soft); color:var(--bad)}
+.t-new{background:var(--accent-soft); color:var(--accent)}
+.note{color:var(--muted); font-size:12.5px; margin-top:8px}
+.src{font-size:12.5px; color:var(--muted); line-height:1.7; margin-top:6px}
+.src a{color:var(--ink2)}
+footer{margin-top:34px; padding-top:14px; border-top:1px solid var(--line);
+  color:var(--muted); font-size:12px}
+</style>
+
+<div class="wrap">
+
+<nav class="nav">
+  <a href="index.html">Bisiklet</a>
+  <a href="koltuk.html" aria-current="page">Çocuk koltuğu</a>
+</nav>
+
+<h1>Çocuk koltuğu karar tahtası</h1>
+<p class="sub">Merida Crossway · bagajlık damgası <span class="kg">25 kg</span> · çocuk <span class="kg">15 kg</span>, 3 yaş altı · en fazla 45 dk mesafe</p>
+
+<div class="rule">
+<b>Kapı:</b> bagajlığımız <span class="kg">25 kg</span>. Üreticiler bagajlık montajlı koltuklar için farklı sınır yazıyor —
+<b>Thule Yepp Maxi EasyFit</b> ve <b>Polisport Guppy Maxi CFS</b> <span class="kg">25 kg</span> istiyor;
+Hamax'ın tüm bagajlık modelleri, Thule Yepp 2 Maxi ve Polisport Bilby Maxi <span class="kg">27 kg</span> istiyor.
+<div class="note">Gerçek kullanımda tavan 22 kg'a çıkmıyor: çocuk 5-6 yaşta koltuğu aşıyor, o noktada ~19-21 kg.
+Koltukla birlikte 23-25 kg. Yani <span class="kg">27 kg</span>'lık modeller <i>yasak değil, spec dışı</i> — son yılda sınıra dayanıyor.</div>
+</div>
+
+<h2>Adaylar — bagajlık montajlı, 45 dk içinde</h2>
+<div class="scroll">
+<table>
+<thead><tr>
+  <th>İlan</th><th>Fiyat</th><th>Yer</th><th>Dk</th><th>Montaj kanıtı</th><th>Üretim</th><th>Durum</th>
+</tr></thead>
+<tbody>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/26119773">Polisport 9–22 kg</a></td>
+  <td class="num">300 kr</td><td>Nol</td><td class="num">~25</td>
+  <td>metin: <i>“med pakethållarfäste”</i></td>
+  <td class="num">?</td>
+  <td><span class="tag t-new">yazılmadı</span> <span class="tag t-ok">Guppy ise 25 kg</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/25211141">Hamax Caress</a></td>
+  <td class="num">399 kr</td><td>Göteborg</td><td class="num">~10</td>
+  <td>metin: <i>“smidigt pakethållarfäste”</i></td>
+  <td class="num">? sorduk</td>
+  <td><span class="tag t-hm">27 kg spec</span> <span class="tag t-hm">çizik</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/25047839">OK Baby Body Guard</a></td>
+  <td class="num">450 kr</td><td>Billdal</td><td class="num">~15</td>
+  <td>metin: <i>“pakethållare/ram”</i></td>
+  <td class="num">?</td>
+  <td><span class="tag t-new">yazılmadı</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/26056344">Hamax + yağmurluk</a></td>
+  <td class="num">500 kr</td><td>Kullavik</td><td class="num">~25</td>
+  <td>metin: <i>“pakethållare/ram”</i></td>
+  <td class="num">?</td>
+  <td><span class="tag t-new">yazılmadı</span> <span class="tag t-hm">27 kg spec</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/21896881">Polisport 22 kg</a></td>
+  <td class="num">300 kr</td><td>Torslanda</td><td class="num">~15</td>
+  <td>belirsiz</td>
+  <td class="num">?</td>
+  <td><span class="tag t-new">yazılmadı</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/25848952">Thule RideAlong</a></td>
+  <td class="num">550 kr</td><td>Johanneberg</td><td class="num">~10</td>
+  <td>satıcı: <i>“hela pakethållarfästet”</i></td>
+  <td class="num">May 2020</td>
+  <td><span class="tag t-hm">27 kg spec</span> <span class="tag t-hm">kapatıldı</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/25939044">Hamax Caress</a></td>
+  <td class="num">400 kr</td><td>Stenungsund</td><td class="num">~45</td>
+  <td>metin: <i>“spänns fast i pakethållaren”</i></td>
+  <td class="num">Oca 2017</td>
+  <td><span class="tag t-no">9,5 yaş</span> <span class="tag t-hm">kapatıldı</span></td>
+</tr>
+<tr>
+  <td><a class="lst" href="https://www.blocket.se/recommerce/forsale/item/25386667">Thule Yepp Maxi 2 Rack</a></td>
+  <td class="num">900 kr</td><td>Gråbo</td><td class="num">~25</td>
+  <td>başlık: <i>Rack Mount</i></td>
+  <td class="num">~yeni</td>
+  <td><span class="tag t-hm">27 kg spec</span> <span class="tag t-hm">kapatıldı</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>Elenenler</h2>
+<div class="scroll">
+<table>
+<thead><tr><th>Sınıf</th><th>Neden</th><th>Kaç ilan</th></tr></thead>
+<tbody>
+<tr><td>Kadro montajlı</td><td>12 cm boşluk ölçülemiyor — bisiklet satıcıya götürülemiyor. Yetmezse Extra Bar 603083 ek maliyet</td><td class="num">11</td></tr>
+<tr><td>Yanlış kilo sınıfı</td><td>18 kg / 13 kg tavanlı, ya da Junior 6+ (35 kg, farklı sınıf)</td><td class="num">4</td></tr>
+<tr><td>Mesafe</td><td>45 dk üstü: Falkenberg · Lund · Huskvarna · Södertälje · Säffle · Lilla Edet · Lödöse</td><td class="num">9</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Neden kadro montajından çıktık</h2>
+<div class="rule">
+Kadro montajında koltuk çelik yaya asılı duruyor ve çocuk ağırlığıyla aşağı iniyor — bu yüzden Hamax
+tekerleğe/çamurluğa/bagajlığa <b>en az 12 cm</b> boşluk şart koşuyor. Bu ölçüm koltuk ve bisiklet aynı yerde
+olmadan yapılamıyor, bizde bisiklet taşıyıcı yok, yani <b>satın almadan test edilemiyor.</b>
+Bagajlık montajında koltuk sabit oturur — ne 12 cm kuralı var, ne yay salınımı, ne 6 cm'lik ek çubuk.
+<div class="note">Ayrıca Cycling Weekly'nin 15 kg'lık testinde Hamax Siesta adıyla anılıyor:
+<i>“sistemde biraz fazla yay… zaman zaman dengesiz hissettirebiliyor.”</i></div>
+</div>
+
+<h2>Kaynaklar</h2>
+<div class="src">
+Thule Yepp Maxi EasyFit kılavuzu — <i>“Max. load capacity: 25 kg / 55 lbs · Must comply to ISO11243”</i><br>
+Thule Yepp 2 Maxi Rack Mount talimatı — <i>“110–175 mm · Min. load capacity 27 kg / 59.5 lbs”</i><br>
+<a href="https://hamax.com/sv/barn/cykelstolar/monterad-pa-en-pakethallare/zenith">Hamax Zenith</a> — <i>“Bagagehyllor måste vara godkänd för laster på 27 kg (ISO11243)”</i><br>
+<a href="https://www.polisport.com/en/carrier-mounting-system_857-837.html">Polisport</a> — Guppy Maxi CFS 25 kg · Bilby Maxi 27 kg<br>
+<a href="https://hamax.no/sv/support/om-oss/artiklar/sa-har-installerar-du-din-rammonterade-cykelstol-pa-ratt-hojd">Hamax</a> — kadro montajı min 12 cm boşluk<br>
+<a href="https://www.cyclingweekly.com/group-tests/child-bike-seat-372941">Cycling Weekly</a> · <a href="https://www.cyclinguk.org/article/beginners-guide-child-bike-seats">Cycling UK</a> · <a href="https://ntf.se/fragor-och-svar/barn-i-trafiken/barn-pa-cykel/vilken-livslangd-har-en-cykelstol/">NTF</a> (ömür ~10 yıl)
+</div>
+
+<footer>
+Ölçülen: bagajlık 25 kg · çocuk 15 kg · Merida seatpost 27,2 mm. Tahmin: yaşa göre kilo eğrisi, mesafeler.<br>
+Kimlik redaksiyonu uygulandı — satıcı adları yok.
+</footer>
+
+</div>
+</body>
+</html>
